@@ -78,8 +78,8 @@ function voiceAction() {
 
 这个 API 大家可能很少会用到，甚至从未见过。在我们使用一个陌生的 API 之前，请留意官方的提醒，并注意查看浏览器的支持情况
 
-![image-20220414181713046](https://gitee.com/huohuomua/pictures/raw/master/202204141817067.png)
+![image-20220414181713046](https://pictures-1312013355.cos.ap-guangzhou.myqcloud.com/pictures/202204141817067.png)
 
 注：关于这个 API 的`lang`属性，你可以在此定义你想要的语种。通过`SpeechSynthesis.getVoices()`你可以得到当前设备所有可用声音的列表
 
-![image-20220414182631794](https://gitee.com/huohuomua/pictures/raw/master/202204141826840.png)
+![image-20220414182631794](https://pictures-1312013355.cos.ap-guangzhou.myqcloud.com/pictures/202204141826840.png)

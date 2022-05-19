@@ -15,17 +15,17 @@
 
 我们以搭建 Vue2 组件库为例开始实现。先来看看效果叭！从熟悉的界面开始......
 
-![image-20220425114029654](https://gitee.com/huohuomua/pictures/raw/master/202204251140099.png)
+![image-20220425114029654](https://pictures-1312013355.cos.ap-guangzhou.myqcloud.com/pictures/202204251140099.png)
 
 最后的组件使用效果
 
-![image-20220425114335755](https://gitee.com/huohuomua/pictures/raw/master/202204251143799.png)
+![image-20220425114335755](https://pictures-1312013355.cos.ap-guangzhou.myqcloud.com/pictures/202204251143799.png)
 
 ## 环境准备
 
 我们写的是 Vue2 组件库，所以使用的是 脚手架 vue-cli 4.5.0 版本（大于 2.9.0 版本）快速搭建项目，新版脚手架自带的 UI 操作界面非常好用，谁用谁知道。具体怎么用可以查看其他博客，这里我们搭建的是一个 UI 组件库，需要的依赖暂时很少，推荐先作如下配置
 
-![image-20220425114539019](https://gitee.com/huohuomua/pictures/raw/master/202204251145078.png)
+![image-20220425114539019](https://pictures-1312013355.cos.ap-guangzhou.myqcloud.com/pictures/202204251145078.png)
 
 ## 组件开发及导入导出处理
 
@@ -35,11 +35,11 @@
 
 先看看该项目的初始整体结构吧（慢慢来，咱不犯错！）
 
-![image-20220425114642465](https://gitee.com/huohuomua/pictures/raw/master/202204251146489.png)
+![image-20220425114642465](https://pictures-1312013355.cos.ap-guangzhou.myqcloud.com/pictures/202204251146489.png)
 
 再预览一下成果发布后的文件结构
 
-![image-20220425114719642](https://gitee.com/huohuomua/pictures/raw/master/202204251147666.png)
+![image-20220425114719642](https://pictures-1312013355.cos.ap-guangzhou.myqcloud.com/pictures/202204251147666.png)
 
 ### 关于组件
 
@@ -231,7 +231,7 @@ npm i test-components
 
 import 了什么（这里的 testPart 可以自定义命名，代表引入整个 UI 库），就看你 export default 了哪些组件
 
-![image-20220425150649366](https://gitee.com/huohuomua/pictures/raw/master/202204251506426.png)
+![image-20220425150649366](https://pictures-1312013355.cos.ap-guangzhou.myqcloud.com/pictures/202204251506426.png)
 
 如果你只想引入部分组件（按需导入，如 Button, Select）
 
@@ -251,7 +251,7 @@ Vue.component(Select.name, Select);
 
 **Third：这里方便测试直接放在 App.vue 中啦！**
 
-![image-20220425150754192](https://gitee.com/huohuomua/pictures/raw/master/202204251507214.png)
+![image-20220425150754192](https://pictures-1312013355.cos.ap-guangzhou.myqcloud.com/pictures/202204251507214.png)
 
 ## 其他
 
